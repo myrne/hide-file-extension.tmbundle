@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>zrelafgby@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Meryn Stol</string>
+	<key>description</key>
+	<string>Automatically hides file extension for files in directories where 'attr.hide-extension.enabled' scope attribute is set.</string>
+	<key>name</key>
+	<string>Hide file extension</string>
+	<key>uuid</key>
+	<string>3CE8F15D-AC57-4F57-967F-7CE0173EAC3A</string>
+</dict>
+</plist>
