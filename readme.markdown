@@ -30,5 +30,5 @@ After that, you probably want to run the "hide extensions inside current folder"
 
 ## Further reading
 
-See https://github.com/textmate/textmate/issues/911 for some background information.
+See https://github.com/textmate/textmate/issues/911 for some background information.  
 See http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/SetFile.1.html for information on SetFile.
