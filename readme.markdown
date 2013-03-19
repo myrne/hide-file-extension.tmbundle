@@ -2,7 +2,7 @@
 
 Projects employing interpreted languages often have folders with files of solely one type. Web projects may have separate folders for css files, js files, and html files for example. Showing the file extensions in file browser in this case is redundant.
 
-This bundle contains a command that automatically hides the extension when saving a file inside a folder where 'attr.hide-extension.enabled' scope attribute is set. This is done by applying ```SetFile -A E` to the file. 
+This bundle contains a command that automatically hides the extension when saving a file inside a folder where 'attr.hide-extension.enabled' scope attribute is set. This is done by applying `SetFile -A E` to the file. 
 
 On top of that, it includes commands for 
 
