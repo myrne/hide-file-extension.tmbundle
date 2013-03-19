@@ -12,7 +12,7 @@
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>name</key>
-	<string>Show file extension</string>
+	<string>Unhide file extension</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
