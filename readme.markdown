@@ -1,8 +1,14 @@
 # HideFileExtension.tmbundle
 
-Projects employing interpreted languages often have directories with files of solely one type. Web projects may have separate directories for css files, js files, and html files for example. Showing the file extensions in file browser in this case is redundant.
+Projects employing interpreted languages often have folders with files of solely one type. Web projects may have separate folders for css files, js files, and html files for example. Showing the file extensions in file browser in this case is redundant.
 
-This bundle automatically hides file extension for files in directories where 'attr.hide-extension.enabled' scope attribute is set. This is done by setting the E attribute on the file. Additionally, you may show a file extension again.
+This bundle contains a command that automatically hides the extension when saving a file inside a folder where 'attr.hide-extension.enabled' scope attribute is set. This is done by applying ```SetFile -A E` to the file. 
+
+On top of that, it includes commands for 
+
+* hiding the extension of all files inside the current folder (and its subfolders)
+* unhiding the extension of current file
+* unhiding the extension of all files inside the current folder (and its subfolders)
 
 ## Installation instructions (Textmate 2)
 
@@ -20,6 +26,9 @@ Create or edit a .tm_properties file anywhere, and place the following inside:
 
     scopeAttributes = 'attr.hide-extension.enabled'
 
+After that, you probably want to run the "hide extensions inside current folder" command once for each folder you'd like file extensions to be hidden in.
+
 ## Further reading
 
 See https://github.com/textmate/textmate/issues/911 for some background information.
+See http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/SetFile.1.html for information on SetFile.
