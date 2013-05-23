@@ -32,3 +32,8 @@ After that, you probably want to run the "hide extensions inside current folder"
 
 See https://github.com/textmate/textmate/issues/911 for some background information.  
 See http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/SetFile.1.html for information on SetFile.
+
+## License
+
+HideFileExtension.tmbundle is released under the MIT License. See LICENSE.
+Copyright (c) 2013 Meryn Stol
